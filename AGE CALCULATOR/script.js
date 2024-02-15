@@ -24,6 +24,6 @@ function calculateAge() {
 
         // Hide the loader after the age calculation is done
         loader.style.display = 'none';
-    }, 1000); // Adjust the delay time as needed
+    }, 1000); // We can Adjust the delay time as needed
 }
 
