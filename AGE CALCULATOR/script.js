@@ -20,7 +20,7 @@ function calculateAge() {
     setTimeout(function() {
         // Display the age result
         var resultElement = document.getElementById('result');
-        resultElement.innerHTML = "Your age is: " + age + " years";
+        resultElement.innerHTML = "Your are  " + age + " years old";
 
         // Hide the loader after the age calculation is done
         loader.style.display = 'none';

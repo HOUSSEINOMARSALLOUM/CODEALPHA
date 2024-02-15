@@ -1,7 +1,7 @@
 {
   "name": "age-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Age Calculator In Which A User Can Inputs His DOB And It Calculates His Age",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
