@@ -8,11 +8,21 @@
 </head>
 <body>
   <div class="todo-container">
-    <h1>To Do List</h1>
+    <h1>Input Your Tasks</h1>
     <div class="add-task">
-      <input type="text" id="taskInput" placeholder="Enter your task here...">
-      <input type="datetime-local" id="deadlineInput">
-      <button id="addBtn">Add</button>
+      <div class="box-input">
+        <div class="border">
+          <input type="text" name="text" class="input" placeholder="Your Task....">
+        </div>
+      </div>
+      <input type="datetime-local" id="deadlineInput" class="input1">
+      <button id="addBtn" class="pushable">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front">
+          Add Task
+        </span>
+      </button>
     </div>
     <div class="filter-tasks">
       <label>Show:
