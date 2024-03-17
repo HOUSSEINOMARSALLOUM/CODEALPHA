@@ -1,5 +1,83 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
-  max-width: 800px;
-  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app > * {
+  flex: 1;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.weather-card {
+  width: 100%;
+  background-color: #fff;
   padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card p {
+  font-size: 1rem;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card .temperature {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card .description {
+  font-size: 1.2rem;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card .humidity {
+  font-size: 1rem;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card .wind {
+  font-size: 1rem;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+.weather-card .pressure {
+  font-size: 1rem;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
 }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import "./WeatherCard.css";
 
 const WeatherCard = () => {
@@ -14,11 +13,27 @@ const WeatherCard = () => {
 
   return (
     <div className="weather-card">
-      <h2>City Name</h2>
+      <h2 className="weather-card__city-name">City Name</h2>
       {weatherData && (
         <>
-          <p>Temperature: {weatherData.main.temp} °C</p>
-          <p>Description: {weatherData.weather[0].description}</p>
+          <p className="weather-card__temperature">
+            Temperature: {weatherData.main.temp} °C
+          </p>
+          <p className="weather-card__description">
+            Description: {weatherData.weather[0].description}
+          </p>
+          <p className="weather-card__humidity">
+            Humidity: {weatherData.main.humidity}%
+          </p>
+          <p className="weather-card__wind-speed">
+            Wind Speed: {weatherData.wind.speed} m/s
+          </p>
+          <p className="weather-card__feels-like">
+            Feels Like: {weatherData.main.feels_like} °C
+          </p>
+          <p className="weather-card__pressure">
+            Pressure: {weatherData.main.pressure} hPa
+          </p>
           {/* Add more weather information as needed */}
         </>
       )}

@@ -1,5 +1,6 @@
 .map {
   height: 300px; /* Set the height of the map container */
+  width: 100%;
   border: 1px solid #ddd;
   margin: 1rem;
   border-radius: 8px;
