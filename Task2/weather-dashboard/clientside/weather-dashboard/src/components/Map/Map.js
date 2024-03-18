@@ -4,7 +4,8 @@ import "./Map.css";
 
 const Map = () => {
   useEffect(() => {
-    mapboxgl.accessToken = "your_mapbox_access_token_here";
+    mapboxgl.accessToken =
+      "pk.eyJ1IjoiaG91c3NlaW5zYWxsb3VtIiwiYSI6ImNsdHhiaDc4bDAzcHIybG1vcjk1ZHoyaWsifQ.YITc7vRGkQJsXIGAHPeuCg";
 
     const map = new mapboxgl.Map({
       container: "map",
